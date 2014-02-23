@@ -1013,6 +1013,17 @@
 		E2DA78061864B11E007BA447 /* WPFixedWidthScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA78051864B11E007BA447 /* WPFixedWidthScrollView.m */; };
 		E2E7EB46185FB140004F5E72 /* WPBlogSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7EB45185FB140004F5E72 /* WPBlogSelectorButton.m */; };
 		EC4696FF0EA75D460040EE8E /* PagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4696FE0EA75D460040EE8E /* PagesViewController.m */; };
+		F100AC2318BA3F0D0057DAD3 /* PasscodeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC2218BA3F0D0057DAD3 /* PasscodeSettingsViewController.m */; };
+		F100AC2918BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC2818BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.m */; };
+		F100AC3718BA3FC40057DAD3 /* FXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC2C18BA3FC40057DAD3 /* FXKeychain.m */; };
+		F100AC3818BA3FC40057DAD3 /* PasscodeButtonStyleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC2E18BA3FC40057DAD3 /* PasscodeButtonStyleProvider.m */; };
+		F100AC3918BA3FC40057DAD3 /* PasscodeCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3018BA3FC40057DAD3 /* PasscodeCircularButton.m */; };
+		F100AC3A18BA3FC40057DAD3 /* PasscodeCircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3218BA3FC40057DAD3 /* PasscodeCircularView.m */; };
+		F100AC3B18BA3FC40057DAD3 /* PasscodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3418BA3FC40057DAD3 /* PasscodeManager.m */; };
+		F100AC3C18BA3FC40057DAD3 /* PasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3618BA3FC40057DAD3 /* PasscodeViewController.m */; };
+		F100AC4018BA40E00057DAD3 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F100AC3E18BA40E00057DAD3 /* background.jpeg */; };
+		F100AC4118BA40E00057DAD3 /* wpLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F100AC3F18BA40E00057DAD3 /* wpLogo.png */; };
+		F100AC4718BA48140057DAD3 /* wordpress-logo-stacked-rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */; };
 		FD21397F13128C5300099582 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD21397E13128C5300099582 /* libiconv.dylib */; };
 		FD22C2B716CD2B20002BA030 /* navbar_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22C2B516CD2B20002BA030 /* navbar_settings.png */; };
 		FD22C2B816CD2B20002BA030 /* navbar_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD22C2B616CD2B20002BA030 /* navbar_settings@2x.png */; };
@@ -2278,6 +2289,25 @@
 		EBC24772E5CD4036B5AFD803 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		EC4696FD0EA75D460040EE8E /* PagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagesViewController.h; sourceTree = "<group>"; };
 		EC4696FE0EA75D460040EE8E /* PagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagesViewController.m; sourceTree = "<group>"; };
+		F100AC2118BA3F0D0057DAD3 /* PasscodeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeSettingsViewController.h; sourceTree = "<group>"; };
+		F100AC2218BA3F0D0057DAD3 /* PasscodeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeSettingsViewController.m; sourceTree = "<group>"; };
+		F100AC2718BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeSettingsDurationViewController.h; sourceTree = "<group>"; };
+		F100AC2818BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeSettingsDurationViewController.m; sourceTree = "<group>"; };
+		F100AC2B18BA3FC40057DAD3 /* FXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXKeychain.h; sourceTree = "<group>"; };
+		F100AC2C18BA3FC40057DAD3 /* FXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXKeychain.m; sourceTree = "<group>"; };
+		F100AC2D18BA3FC40057DAD3 /* PasscodeButtonStyleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeButtonStyleProvider.h; sourceTree = "<group>"; };
+		F100AC2E18BA3FC40057DAD3 /* PasscodeButtonStyleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeButtonStyleProvider.m; sourceTree = "<group>"; };
+		F100AC2F18BA3FC40057DAD3 /* PasscodeCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeCircularButton.h; sourceTree = "<group>"; };
+		F100AC3018BA3FC40057DAD3 /* PasscodeCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeCircularButton.m; sourceTree = "<group>"; };
+		F100AC3118BA3FC40057DAD3 /* PasscodeCircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeCircularView.h; sourceTree = "<group>"; };
+		F100AC3218BA3FC40057DAD3 /* PasscodeCircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeCircularView.m; sourceTree = "<group>"; };
+		F100AC3318BA3FC40057DAD3 /* PasscodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeManager.h; sourceTree = "<group>"; };
+		F100AC3418BA3FC40057DAD3 /* PasscodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeManager.m; sourceTree = "<group>"; };
+		F100AC3518BA3FC40057DAD3 /* PasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeViewController.h; sourceTree = "<group>"; };
+		F100AC3618BA3FC40057DAD3 /* PasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeViewController.m; sourceTree = "<group>"; };
+		F100AC3E18BA40E00057DAD3 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		F100AC3F18BA40E00057DAD3 /* wpLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wpLogo.png; sourceTree = "<group>"; };
+		F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordpress-logo-stacked-rgb.png"; sourceTree = "<group>"; };
 		FD0D42C11499F31700F5E115 /* WordPress 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WordPress 4.xcdatamodel"; sourceTree = "<group>"; };
 		FD21397E13128C5300099582 /* libiconv.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		FD22C2B516CD2B20002BA030 /* navbar_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_settings.png; path = Resources/Images/navbar_settings.png; sourceTree = "<group>"; };
@@ -2902,6 +2932,10 @@
 				E1AB07AC1578D34300D6AD64 /* SettingsViewController.m */,
 				93027BB61758332300483FFD /* SupportViewController.h */,
 				93027BB71758332300483FFD /* SupportViewController.m */,
+				F100AC2118BA3F0D0057DAD3 /* PasscodeSettingsViewController.h */,
+				F100AC2218BA3F0D0057DAD3 /* PasscodeSettingsViewController.m */,
+				F100AC2718BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.h */,
+				F100AC2818BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.m */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -3450,6 +3484,7 @@
 		AC512F790E20D25E00B7DA32 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F100AC3D18BA40D10057DAD3 /* PasscodeLock */,
 				E2981BF2186111C1008DB434 /* gravatar.png */,
 				E2981BF3186111C1008DB434 /* gravatar@2x.png */,
 				303E1A6618B78BB90005123F /* gravatar-reader.png */,
@@ -4118,6 +4153,7 @@
 		E12F55F714A1F2640060A510 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				F100AC2A18BA3FC40057DAD3 /* iOSPasscodeLock */,
 				E1D0D81E16D3D19200E33F4C /* PocketAPI */,
 				E1B4A9DE12FC8B1000EB3F67 /* EGOTableViewPullRefresh */,
 				E12F95B6155820A40067A653 /* KVO+Blocks */,
@@ -4311,6 +4347,35 @@
 			name = Pages;
 			sourceTree = "<group>";
 		};
+		F100AC2A18BA3FC40057DAD3 /* iOSPasscodeLock */ = {
+			isa = PBXGroup;
+			children = (
+				F100AC2B18BA3FC40057DAD3 /* FXKeychain.h */,
+				F100AC2C18BA3FC40057DAD3 /* FXKeychain.m */,
+				F100AC2D18BA3FC40057DAD3 /* PasscodeButtonStyleProvider.h */,
+				F100AC2E18BA3FC40057DAD3 /* PasscodeButtonStyleProvider.m */,
+				F100AC2F18BA3FC40057DAD3 /* PasscodeCircularButton.h */,
+				F100AC3018BA3FC40057DAD3 /* PasscodeCircularButton.m */,
+				F100AC3118BA3FC40057DAD3 /* PasscodeCircularView.h */,
+				F100AC3218BA3FC40057DAD3 /* PasscodeCircularView.m */,
+				F100AC3318BA3FC40057DAD3 /* PasscodeManager.h */,
+				F100AC3418BA3FC40057DAD3 /* PasscodeManager.m */,
+				F100AC3518BA3FC40057DAD3 /* PasscodeViewController.h */,
+				F100AC3618BA3FC40057DAD3 /* PasscodeViewController.m */,
+			);
+			path = iOSPasscodeLock;
+			sourceTree = "<group>";
+		};
+		F100AC3D18BA40D10057DAD3 /* PasscodeLock */ = {
+			isa = PBXGroup;
+			children = (
+				F100AC3E18BA40E00057DAD3 /* background.jpeg */,
+				F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */,
+				F100AC3F18BA40E00057DAD3 /* wpLogo.png */,
+			);
+			name = PasscodeLock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -4464,6 +4529,7 @@
 				859743A017D6D956009DCDCA /* keyboardButtoniPadHighlighted-ios7.png in Resources */,
 				85495F5E17C6FACF00871A7A /* icon-comments-reply@2x.png in Resources */,
 				83BC943C11F94AA00041141A /* whitebg.png in Resources */,
+				F100AC4118BA40E00057DAD3 /* wpLogo.png in Resources */,
 				8370D10C11FA4A1B009D650F /* WPTableViewActivityCell.xib in Resources */,
 				8370D11811FA4CCF009D650F /* welcome_bg.png in Resources */,
 				8370D11911FA4CCF009D650F /* welcome_bg@2x.png in Resources */,
@@ -5075,6 +5141,7 @@
 				5D7BEA3117749FFD00423E7F /* wp_img_placeholder@2x.png in Resources */,
 				859743A217D6D956009DCDCA /* keyboardButtonHighlighted-ios7.png in Resources */,
 				5D7BEA3217749FFD00423E7F /* wp_vid_placeholder.png in Resources */,
+				F100AC4018BA40E00057DAD3 /* background.jpeg in Resources */,
 				85325A4517BB0DF8008E87D1 /* icon-menu-notifications@2x.png in Resources */,
 				85325A4817BB0DF8008E87D1 /* icon-menu-notifications-active.png in Resources */,
 				5D7BEA3317749FFD00423E7F /* wp_vid_placeholder@2x.png in Resources */,
@@ -5117,6 +5184,7 @@
 				5D7BEA891774A0C500423E7F /* btn-primary-tap@2x.png in Resources */,
 				5D7BEA8A1774A0C500423E7F /* btn-primary.png in Resources */,
 				5D4AD412185FF6C500CDEE17 /* icon-tab-newpost-highlighted@2x~ipad.png in Resources */,
+				F100AC4718BA48140057DAD3 /* wordpress-logo-stacked-rgb.png in Resources */,
 				E22257EE1829C15B00F76926 /* textPushDetailIcon.png in Resources */,
 				5D7BEA8B1774A0C500423E7F /* btn-primary@2x.png in Resources */,
 				5D7BEA8C1774A0C500423E7F /* btn-secondary-tap.png in Resources */,
@@ -5290,6 +5358,8 @@
 				7059CD210F332B6500A0660B /* WPCategoryTree.m in Sources */,
 				03CF21ED0FE9F0C3008AD538 /* NSString+Util.m in Sources */,
 				CEBD3EAB0FF1BA3B00C1396E /* Blog.m in Sources */,
+				F100AC2918BA3FAF0057DAD3 /* PasscodeSettingsDurationViewController.m in Sources */,
+				F100AC3C18BA3FC40057DAD3 /* PasscodeViewController.m in Sources */,
 				03958062100D6CFC00850742 /* WPLabel.m in Sources */,
 				CC701658185A7513007B37DB /* InlineComposeToolbarView.m in Sources */,
 				46F8714F1838C41600BC149B /* NSDate+StringFormatting.m in Sources */,
@@ -5312,6 +5382,7 @@
 				83CAD41D1235F854003DFA20 /* MediaObjectViewController.m in Sources */,
 				E125445612BF5B3900D87A0A /* Category.m in Sources */,
 				E125451812BF68F900D87A0A /* Page.m in Sources */,
+				F100AC3818BA3FC40057DAD3 /* PasscodeButtonStyleProvider.m in Sources */,
 				FD9A948C12FAEA2300438F94 /* DateUtils.m in Sources */,
 				E1B4A9E112FC8B1000EB3F67 /* EGORefreshTableHeaderView.m in Sources */,
 				85D2415817D0701A00AF090E /* UIViewController+iOS7StyleChanges.m in Sources */,
@@ -5321,6 +5392,7 @@
 				375D090D133B94C3000CC9CD /* BlogsTableViewCell.m in Sources */,
 				850DE06117CD4611003A1057 /* NewNotificationsTableViewCell.m in Sources */,
 				E10A2E9B134E8AD3007643F9 /* PostAnnotation.m in Sources */,
+				F100AC3718BA3FC40057DAD3 /* FXKeychain.m in Sources */,
 				E17BE261134F5E4D00165C3D /* QuickPicturePreviewView.m in Sources */,
 				C52C7837187739C500FB1D2D /* StatsNoResultsCell.m in Sources */,
 				E14B2B761368127900CC3C4F /* UITableViewTextFieldCell.m in Sources */,
@@ -5375,6 +5447,7 @@
 				5D4DE6F4167177560030518D /* WPNoResultsView.m in Sources */,
 				8516972C169D42F4006C5DED /* WPToast.m in Sources */,
 				CC098B8416A9ECF800450976 /* CameraPlusPickerManager.m in Sources */,
+				F100AC3A18BA3FC40057DAD3 /* PasscodeCircularView.m in Sources */,
 				93C4864F181043D700A24725 /* ActivityLogDetailViewController.m in Sources */,
 				CC70165E185BB97A007B37DB /* ReaderCommentPublisher.m in Sources */,
 				DDDAF057187F38810094973D /* StatsViewsVisitors.m in Sources */,
@@ -5411,7 +5484,9 @@
 				85A1B6751742E7EF00BA5E35 /* WPMobileStats.m in Sources */,
 				E183BD7417621D87000B0822 /* WPCookie.m in Sources */,
 				E10DB0081771926D00B7A0A3 /* GooglePlusActivity.m in Sources */,
+				F100AC3B18BA3FC40057DAD3 /* PasscodeManager.m in Sources */,
 				5D42A3DE175E7452005CFF05 /* AbstractComment.m in Sources */,
+				F100AC2318BA3F0D0057DAD3 /* PasscodeSettingsViewController.m in Sources */,
 				5D42A3DF175E7452005CFF05 /* AbstractPost.m in Sources */,
 				5D42A3E0175E7452005CFF05 /* BasePost.m in Sources */,
 				5D42A3E1175E7452005CFF05 /* ReaderComment.m in Sources */,
@@ -5444,6 +5519,7 @@
 				E100C6BB1741473000AE48D8 /* WordPress-11-12.xcmappingmodel in Sources */,
 				C56636FE1877011000226AAB /* StatsCounterCell.m in Sources */,
 				E1A03EE217422DCF0085D192 /* BlogToAccount.m in Sources */,
+				F100AC3918BA3FC40057DAD3 /* PasscodeCircularButton.m in Sources */,
 				E1A03F48174283E10085D192 /* BlogToJetpackAccount.m in Sources */,
 				5D119DA3176FBE040073D83A /* UIImageView+AFNetworkingExtra.m in Sources */,
 				5DF59C0B1770AE3A00171208 /* UILabel+SuggestSize.m in Sources */,
@@ -5534,7 +5610,7 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5555,7 +5631,7 @@
 					"-Wno-format",
 				);
 				PRODUCT_NAME = WordPress;
-				PROVISIONING_PROFILE = "94C64C0F-3B9F-4DA6-8710-E40088FC8621";
+				PROVISIONING_PROFILE = "70B9AA90-62E0-44C7-8367-DBE16D74DB99";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WPCOM_CONFIG = $HOME/.wpcom_app_credentials;
 			};
@@ -5570,7 +5646,7 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5593,7 +5669,7 @@
 					"-Wno-format",
 				);
 				PRODUCT_NAME = WordPress;
-				PROVISIONING_PROFILE = "A5A51EB7-2E4D-4D01-A0E9-6E1C7BEC4951";
+				PROVISIONING_PROFILE = "70B9AA90-62E0-44C7-8367-DBE16D74DB99";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WPCOM_CONFIG = $HOME/.wpcom_app_credentials;
 			};
@@ -5631,7 +5707,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5650,7 +5726,7 @@
 					"-Wno-format-security",
 				);
 				PRODUCT_NAME = WordPress;
-				PROVISIONING_PROFILE = "A5A51EB7-2E4D-4D01-A0E9-6E1C7BEC4951";
+				PROVISIONING_PROFILE = "70B9AA90-62E0-44C7-8367-DBE16D74DB99";
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WPCOM_CONFIG = $HOME/.wpcom_app_credentials;
@@ -5687,7 +5763,7 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5711,7 +5787,7 @@
 					"-Wno-format",
 				);
 				PRODUCT_NAME = WordPress;
-				PROVISIONING_PROFILE = "74FADB78-88AD-4CB2-9225-24AA1D4D5319";
+				PROVISIONING_PROFILE = "70B9AA90-62E0-44C7-8367-DBE16D74DB99";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WPCOM_CONFIG = $HOME/.wpcom_internal_app_credentials;
 			};

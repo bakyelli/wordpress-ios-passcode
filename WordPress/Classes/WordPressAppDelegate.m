@@ -44,6 +44,7 @@
 #import "SupportViewController.h"
 #import "StatsViewController.h"
 #import "Constants.h"
+#import "PasscodeManager.h"
 
 #if DEBUG
 #import "DDTTYLogger.h"
@@ -118,6 +119,11 @@ static NSString *const CameraPlusImagesNotification = @"CameraPlusImagesNotifica
         [[PocketAPI sharedAPI] setConsumerKey:[WordPressComApiCredentials pocketConsumerKey]];
         [self cleanUnusedMediaFileFromTmpDir];
     });
+    
+    //Passcode Lock
+    [[PasscodeManager sharedManager] activatePasscodeProtection];
+    [WPStyleGuide configurePasscodeLockStyle];
+
     
     CGRect bounds = [[UIScreen mainScreen] bounds];
     [self.window setFrame:bounds];
@@ -356,6 +362,7 @@ static NSString *const CameraPlusImagesNotification = @"CameraPlusImagesNotifica
     [[UINavigationBar appearanceWhenContainedIn:[UIReferenceLibraryViewController class], nil] setBarTintColor:[WPStyleGuide newKidOnTheBlockBlue]];
     [[UIToolbar appearanceWhenContainedIn:[UIReferenceLibraryViewController class], nil] setBarTintColor:[UIColor darkGrayColor]];
 }
+
 
 #pragma mark - Tab bar methods
 
