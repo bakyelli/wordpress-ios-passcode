@@ -1021,7 +1021,6 @@
 		F100AC3A18BA3FC40057DAD3 /* PasscodeCircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3218BA3FC40057DAD3 /* PasscodeCircularView.m */; };
 		F100AC3B18BA3FC40057DAD3 /* PasscodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3418BA3FC40057DAD3 /* PasscodeManager.m */; };
 		F100AC3C18BA3FC40057DAD3 /* PasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F100AC3618BA3FC40057DAD3 /* PasscodeViewController.m */; };
-		F100AC4018BA40E00057DAD3 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F100AC3E18BA40E00057DAD3 /* background.jpeg */; };
 		F100AC4118BA40E00057DAD3 /* wpLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F100AC3F18BA40E00057DAD3 /* wpLogo.png */; };
 		F100AC4718BA48140057DAD3 /* wordpress-logo-stacked-rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */; };
 		FD21397F13128C5300099582 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD21397E13128C5300099582 /* libiconv.dylib */; };
@@ -2305,7 +2304,6 @@
 		F100AC3418BA3FC40057DAD3 /* PasscodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeManager.m; sourceTree = "<group>"; };
 		F100AC3518BA3FC40057DAD3 /* PasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeViewController.h; sourceTree = "<group>"; };
 		F100AC3618BA3FC40057DAD3 /* PasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeViewController.m; sourceTree = "<group>"; };
-		F100AC3E18BA40E00057DAD3 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 		F100AC3F18BA40E00057DAD3 /* wpLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wpLogo.png; sourceTree = "<group>"; };
 		F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordpress-logo-stacked-rgb.png"; sourceTree = "<group>"; };
 		FD0D42C11499F31700F5E115 /* WordPress 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WordPress 4.xcdatamodel"; sourceTree = "<group>"; };
@@ -4369,7 +4367,6 @@
 		F100AC3D18BA40D10057DAD3 /* PasscodeLock */ = {
 			isa = PBXGroup;
 			children = (
-				F100AC3E18BA40E00057DAD3 /* background.jpeg */,
 				F100AC4618BA48140057DAD3 /* wordpress-logo-stacked-rgb.png */,
 				F100AC3F18BA40E00057DAD3 /* wpLogo.png */,
 			);
@@ -5141,7 +5138,6 @@
 				5D7BEA3117749FFD00423E7F /* wp_img_placeholder@2x.png in Resources */,
 				859743A217D6D956009DCDCA /* keyboardButtonHighlighted-ios7.png in Resources */,
 				5D7BEA3217749FFD00423E7F /* wp_vid_placeholder.png in Resources */,
-				F100AC4018BA40E00057DAD3 /* background.jpeg in Resources */,
 				85325A4517BB0DF8008E87D1 /* icon-menu-notifications@2x.png in Resources */,
 				85325A4817BB0DF8008E87D1 /* icon-menu-notifications-active.png in Resources */,
 				5D7BEA3317749FFD00423E7F /* wp_vid_placeholder@2x.png in Resources */,
